@@ -57,6 +57,13 @@ const Navbar = () => {
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
+                  <Link href="/" activeClassName="active">
+                    <a onClick={toggleNavbar} className="nav-link">
+                      Home
+                    </a>
+                  </Link>
+                </li>
+                <li className="nav-item">
                   <Link href="/faq" activeClassName="active">
                     <a onClick={toggleNavbar} className="nav-link">
                       FAQs

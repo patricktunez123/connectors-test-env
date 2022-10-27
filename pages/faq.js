@@ -1,7 +1,8 @@
 import React from "react";
 import Footer from "@/components/_App/Footer";
 import PageBanner from "@/components/Common/PageBanner";
-import ContactForm from "./../components/FAQ/ContactForm";
+import ContactForm from "@/components/Common/ContactForm";
+import Navbar from "@/components/_App/Navbar";
 import {
   Accordion,
   AccordionItem,
@@ -9,18 +10,15 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
-import Link from "next/link";
 
 const FAQ = () => {
   return (
     <>
+      <Navbar />
       <PageBanner pageTitle="FAQs" />
 
       <div className="faq-area ptb-80">
         <div className="container">
-          <div style={{ marginBottom: "12px" }}>
-            <Link href="/">Home</Link>
-          </div>
           <div className="faq-accordion">
             <Accordion preExpanded={["a"]}>
               <AccordionItem uuid="a">

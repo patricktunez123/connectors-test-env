@@ -10,95 +10,22 @@ This files table contents are outlined below>>>>>
 *******************************************
 *******************************************
 
-==== INDEX PAGE CSS
 
-** - Default CSS
-** - Preloader CSS
-** - Navbar CSS
-** - Main Banner CSS
-** - Boxes CSS
-** - About CSS
-** - Why Choose Us CSS
-** - Services CSS
-** - Services Details CSS
-** - Features CSS
-** - Features Details CSS
-** - Team CSS
-** - Works CSS
-** - Fun Facts CSS
-** - Pricing CSS
-** - Domain Search CSS
-** - Feedback CSS
-** - Ready To Talk CSS
-** - Partner CSS
-** - Blog CSS
-** - Shop CSS
-** - Shop Details CSS
-** - Cart CSS
-** - Checkout CSS
-** - Page Title CSS
-** - FAQ CSS
-** - Pagination CSS
-** - Blog Details CSS
-** - Sidebar Widget CSS
-** - Project Details CSS
-** - Contact CSS
-** - Coming Soon CSS
-** - 404 Error CSS
-** - CTA CSS
-** - Repair Main Banner CSS
-** - Repair Partner CSS
-** - Repair About CSS
-** - Repair Services CSS
-** - Repair CTA CSS
-** - Repair Team CSS
-** - Repair Why Choose Us CSS
-** - Repair Feedback CSS
-** - IoT Main Banner CSS
-** - IoT Partner CSS
-** - Iot Services CSS
-** - IoT CTA CSS
-** - IoT Features CSS
-** - IoT Team CSS
-** - IoT Why Choose Us CSS
-** - ML Main Banner CSS
-** - ML Partner CSS
-** - Our Solutions CSS
-** - ML About CSS
-** - ML Services CSS
-** - ML Feedback CSS
-** - Free Trial CSS
-** - ML Projects CSS
-** - Agency Main Banner CSS
-** - Our Solutions CSS
-** - Agency About CSS
-** - Agency Services CSS
-** - Testimonials CSS
-** - Agency CTA CSS
-** - Agency Portfolio Main Banner CSS
-** - Our Latest Projects CSS
-** - Agency Portfolio About CSS
-** - Agency Portfolio Partner CSS
-** - Creative Area CSS
-** - Footer CSS
-** - Auth Form CSS
-** - Go Top CSS
-*/
 
 /*================================================
 Default CSS
 =================================================*/
 $font-family: "Poppins", sans-serif;
-$light-green-color: #44ce6f;
+$light-green-color: #a04786;
 $white-color: #ffffff;
 $black-color: #0e314c;
 $navlink-color: #4a6f8a;
 $paragraph-color: #6084a4;
-$purple-color: #c679e3;
+$purple-color: #a04786;
 $bg-color: #f7fafd;
 $bg-color2: #f9f6f6;
 $hosting-main-color: #032b8d;
-$gradient-color: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+$gradient-color: linear-gradient(135deg, #a04786 0%, #f6babc 100%);
 $gradient-color2: linear-gradient(
   to right bottom,
   #1fa2ff,
@@ -3499,7 +3426,7 @@ Feedback CSS
     top: -25px;
     left: -25px;
     color: $white-color;
-    background: linear-gradient(135deg, #43e794 0%, #23bdb8 100%);
+    background: linear-gradient(135deg, #f6babc 0%, #a04786 100%);
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -3636,7 +3563,7 @@ Big Data Analytics Banner CSS
 }
 .single-banner-boxes {
   margin-bottom: 30px;
-  border: 1px dashed #687b6f;
+  border: 1px dashed #a04786;
   position: relative;
   border-radius: 5px;
   padding: 25px 25px 25px 95px;
@@ -3652,7 +3579,7 @@ Big Data Analytics Banner CSS
     right: 0;
     bottom: 0;
     border-radius: 5px;
-    background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+    background: linear-gradient(135deg, #a04786 0%, #f6babc 100%);
     z-index: -1;
     opacity: 0;
     margin: -1px;
@@ -3753,7 +3680,7 @@ What We Do CSS
     border-radius: 5px;
     color: $white-color;
     text-align: center;
-    background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+    background: linear-gradient(135deg, #a04786 0%, #f6babc 100%);
 
     i {
       position: absolute;
@@ -3799,7 +3726,7 @@ Discover CSS
 .discover-area {
   position: relative;
   z-index: 1;
-  background: linear-gradient(135deg, #43e794 0%, #23bdb8 100%);
+  background: linear-gradient(135deg, #f6babc 0%, #a04786 100%);
 }
 .discover-image {
   position: relative;
@@ -3921,7 +3848,7 @@ Industries Serve CSS
   padding-bottom: 50px;
   position: relative;
   z-index: 1;
-  background: linear-gradient(135deg, #43e794 0%, #23bdb8 100%);
+  background: linear-gradient(135deg, #f6babc 0%, #a04786 100%);
 
   .section-title {
     h2 {
@@ -8738,7 +8665,7 @@ Newsletter CSS
     z-index: 1;
     -webkit-clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
     clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
-    background: linear-gradient(135deg, #43e794 0%, #23bdb8 100%);
+    background: linear-gradient(135deg, #f6babc 0%, #a04786 100%);
   }
 }
 .newsletter-image {
@@ -9409,7 +9336,7 @@ Agency CTA CSS
     opacity: 0;
     visibility: hidden;
     width: 100%;
-    background: linear-gradient(135deg, #23bdb8 0, #43e794 100%);
+    background: linear-gradient(135deg, #a04786 0, #f6babc 100%);
     left: 0;
     border-radius: 4px;
   }

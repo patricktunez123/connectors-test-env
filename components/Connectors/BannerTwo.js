@@ -41,7 +41,7 @@ const BannerTwo = () => {
       </div>
 
       <div className="analytics-shape1">
-        <img src="/images/bigdata-analytics/analytics-shape1.png" alt="image" />
+        <img src="/images/map.png" alt="image" />
       </div>
     </div>
   );

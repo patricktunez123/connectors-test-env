@@ -47,7 +47,7 @@ const Connectors = () => {
                     </li>
                     <li>
                       <a href="https://www.gitlab.com/" target="_blank">
-                        <Icon.Gitlab />
+                        <Icon.Instagram />
                       </a>
                     </li>
                   </ul>
