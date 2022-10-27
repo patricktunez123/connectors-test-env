@@ -1,0 +1,35 @@
+{
+  "name": "Connectors_Digital_Africa",
+  "version": "3.7.0",
+  "description": "Connectors_Digital_Africa - React Next IT Startup & Digital Agency Template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "EnvyTheme.com",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "axios": "^0.21.4",
+    "next": "^12.1.4",
+    "nodemailer": "^6.7.5",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "react": "^18.2.0",
+    "react-accessible-accordion": "^5.0.0",
+    "react-dom": "^18.2.0",
+    "react-feather": "^2.0.10",
+    "react-hot-toast": "^2.4.0",
+    "react-redux": "^7.2.6",
+    "react-responsive-masonry": "^2.1.5",
+    "react-slick": "^0.29.0",
+    "react-tabs": "^5.1.0",
+    "redux": "^3.6.0",
+    "redux-devtools-extension": "^2.13.9",
+    "sass": "^1.43.4",
+    "sweetalert2": "^11.4.19",
+    "sweetalert2-react-content": "^5.0.0",
+    "swiper": "^8.3.2"
+  },
+  "license": "MIT"
+}
