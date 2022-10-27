@@ -21,7 +21,7 @@ const BannerTwo = () => {
 
           <div className="col-lg-6 col-md-12">
             <div className="discover-content">
-              <h2>Lorem Ipsum is simply dummy text</h2>
+              <h2>Did you know that Digital Africa is your...</h2>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. There are many variations of passages of Lorem Ipsum

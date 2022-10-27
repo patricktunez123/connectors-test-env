@@ -23,26 +23,20 @@ const MainBanner = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-banner-boxes">
                 <div className="icon">
-                  <Icon.Server />
+                  <Icon.Users />
                 </div>
-                <h3>Analyze Your Data</h3>
-                <p>
-                  Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
-                  tempor incididunt ut labore dolore magna aliqua.
-                </p>
+                <h3>Connectors</h3>
+                <p>15 Connectors on the continent</p>
               </div>
             </div>
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-banner-boxes">
                 <div className="icon">
-                  <Icon.Code />
+                  <Icon.Map />
                 </div>
-                <h3>Customized Plan</h3>
-                <p>
-                  Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
-                  tempor incididunt ut labore dolore magna aliqua.
-                </p>
+                <h3>Regions</h3>
+                <p>5 Regions (North, South, West, East and Central Africa)</p>
               </div>
             </div>
 
@@ -51,11 +45,8 @@ const MainBanner = () => {
                 <div className="icon">
                   <Icon.Users />
                 </div>
-                <h3>Implement Solution</h3>
-                <p>
-                  Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
-                  tempor incididunt ut labore dolore magna aliqua.
-                </p>
+                <h3>Connectors per region</h3>
+                <p>3 Connectors per region</p>
               </div>
             </div>
           </div>

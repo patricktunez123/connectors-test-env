@@ -6,16 +6,18 @@ const FunFacts = () => {
     <div className="funfacts-area bg-image ptb-80">
       <div className="container">
         <div className="section-title">
-          <h2>We always try to understand users expectation</h2>
+          <h2>OUR COMMITMENT</h2>
           <div className="bar"></div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            To help African solutions emerge by providing at least €130 million
+            in funding from AFD-Proparco group, and a whole host of support
+            programs designed to meet the needs of Africa’s innovative
+            entrepreneurs.
           </p>
         </div>
 
         <div className="contact-cta-box">
-          <h3>Have any question about us?</h3>
+          <h3>Want to know more?</h3>
           <p>Don't hesitate to contact us</p>
 
           <Link href="/contact">

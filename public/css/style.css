@@ -228,7 +228,7 @@ textarea.form-control {
 .btn-primary:focus,
 .btn-primary:active {
   color: #ffffff;
-  background: #0e314c;
+  background: #a04786 !important;
 
   -webkit-box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
   box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
@@ -2725,7 +2725,7 @@ Team CSS
 .single-team .team-info {
   background: linear-gradient(135deg, #a04786 0%, #f6babc 100%);
   padding: 10px 15px;
-  border-radius: 75px;
+  /* border-radius: 75px; */
   margin-bottom: 25px;
   margin-left: 10px;
   margin-right: 10px;
@@ -2905,7 +2905,7 @@ Fun Facts CSS
 .contact-cta-box {
   margin: 80px auto 0;
   max-width: 700px;
-  border: 1px dashed #ebebeb;
+  border: 1px solid #a04786 !important;
   padding: 30px 210px 30px 30px;
   border-radius: 5px;
   position: relative;
@@ -4084,6 +4084,7 @@ Big Data Analytics Banner CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   z-index: 1;
+  min-height: 150px;
 }
 
 .single-banner-boxes::before {
@@ -4151,24 +4152,14 @@ Big Data Analytics Banner CSS
   color: #ffffff;
 }
 
-.col-lg-4:nth-child(2) .single-banner-boxes .icon {
-  color: #f78acb;
-  background: #f9f4f7;
+.single-banner-boxes .icon {
+  color: #f9f4f7;
+  background: #a04786;
 }
 
-.col-lg-4:nth-child(2) .single-banner-boxes:hover .icon {
-  background-color: #ffffff;
-  color: #f78acb;
-}
-
-.col-lg-4:nth-child(3) .single-banner-boxes .icon {
-  color: #a04786;
-  background: #edc3fc;
-}
-
-.col-lg-4:nth-child(3) .single-banner-boxes:hover .icon {
-  background-color: #ffffff;
-  color: #a04786;
+.single-banner-boxes:hover .icon {
+  color: #f9f4f7;
+  background: #a04786;
 }
 
 /*=============================

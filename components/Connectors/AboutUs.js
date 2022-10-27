@@ -28,10 +28,12 @@ const AboutUs = () => {
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="single-what-we-do-box">
               <div className="icon">
-                <i className="flaticon-monitor"></i>
+                <i style={{ fontSize: "20px", fontWeight: "900" }} className="">
+                  1
+                </i>
               </div>
               <h3>
-                <Link href="/service-details">
+                <Link href="#/">
                   <a>EQUIPPING HIGH IMPACT DIGITALLY ENABLED START-UP</a>
                 </Link>
               </h3>
@@ -45,11 +47,13 @@ const AboutUs = () => {
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="single-what-we-do-box">
               <div className="icon">
-                <i className="flaticon-idea"></i>
+                <i style={{ fontSize: "20px", fontWeight: "900" }} className="">
+                  2
+                </i>
               </div>
 
               <h3>
-                <Link href="/service-details">
+                <Link href="#/">
                   <a>
                     SOURCING AFRICAN AND GLOBAL FINANCE TO SCALE-UP PROJECTS
                   </a>
@@ -66,10 +70,12 @@ const AboutUs = () => {
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="single-what-we-do-box">
               <div className="icon">
-                <i className="flaticon-software"></i>
+                <i style={{ fontSize: "20px", fontWeight: "900" }} className="">
+                  3
+                </i>
               </div>
               <h3>
-                <Link href="/service-details">
+                <Link href="#/">
                   <a>
                     DEVELOPING RESEARCH & POLICY RECOMMENDATIONS IN SUPPORT OF
                     MADE IN AFRICA DIGITAL INNOVATIONS

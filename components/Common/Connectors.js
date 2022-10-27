@@ -25,8 +25,8 @@ const Connectors = () => {
 
                 <div className="team-content">
                   <div className="team-info">
-                    <h3>Josh Buttler</h3>
-                    <span>CEO & Founder</span>
+                    <h3>Patrick T.</h3>
+                    <span>CEO & Founder at Google</span>
                   </div>
 
                   <ul>
@@ -46,16 +46,13 @@ const Connectors = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.gitlab.com/" target="_blank">
+                      <a href="https://www.instagram.com/" target="_blank">
                         <Icon.Instagram />
                       </a>
                     </li>
                   </ul>
 
-                  <p>
-                    Risus commodo viverra maecenas accumsan lacus vel facilisis
-                    quis ipsum.
-                  </p>
+                  <p>Risus commodo viverra maecenas accumsan lacus.</p>
                 </div>
               </div>
             </div>
