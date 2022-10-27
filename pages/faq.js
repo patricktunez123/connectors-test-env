@@ -1,8 +1,8 @@
 import React from "react";
-import Footer from "@/components/_App/Footer";
-import PageBanner from "@/components/Common/PageBanner";
-import ContactForm from "@/components/Common/ContactForm";
-import Navbar from "@/components/_App/Navbar";
+import Footer from "../components/_App/Footer";
+import PageBanner from "../components/Common/PageBanner";
+import ContactForm from "../components/Common/ContactForm";
+import Navbar from "../components/_App/Navbar";
 import {
   Accordion,
   AccordionItem,
