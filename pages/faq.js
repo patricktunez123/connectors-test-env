@@ -15,7 +15,7 @@ const FAQ = () => {
   return (
     <>
       <Navbar />
-      <PageBanner pageTitle="FAQs" />
+      <PageBanner pageTitle="Frequently asked questions" />
 
       <div className="faq-area ptb-80">
         <div className="container">
@@ -24,7 +24,10 @@ const FAQ = () => {
               <AccordionItem uuid="a">
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    <span>How do permissions work in Google Play Instant?</span>
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do?
+                    </span>
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -42,7 +45,10 @@ const FAQ = () => {
               <AccordionItem uuid="b">
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    <span>Is Smart Lock required for instant apps?</span>
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do?
+                    </span>
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -61,7 +67,8 @@ const FAQ = () => {
                 <AccordionItemHeading>
                   <AccordionItemButton>
                     <span>
-                      Can I have multiple activities in a single feature?
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do?
                     </span>
                   </AccordionItemButton>
                 </AccordionItemHeading>
@@ -80,7 +87,10 @@ const FAQ = () => {
               <AccordionItem uuid="d">
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    <span>Can I share resources between features?</span>
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do?
+                    </span>
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -98,7 +108,10 @@ const FAQ = () => {
               <AccordionItem uuid="e">
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    <span>Is multidex supported for instant apps?</span>
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do?
+                    </span>
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -116,7 +129,10 @@ const FAQ = () => {
               <AccordionItem uuid="f">
                 <AccordionItemHeading>
                   <AccordionItemButton>
-                    <span>Can I share resources between features?</span>
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do?
+                    </span>
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
