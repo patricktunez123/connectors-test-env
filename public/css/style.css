@@ -4040,12 +4040,28 @@ Ready To Talk CSS
 Big Data Analytics Banner CSS
 ===============================*/
 .bigdata-analytics-banner {
-  background-image: url(/images/digital/main-banner.jpg);
-  background-position: center center;
-  background-size: cover;
+  height: 100vh !important;
+  display: flex;
+  align-items: center;
+}
+.bigdata-analytics-banner.bg-image {
+  background-image: url(/images/connect_banner.png);
+  background-position: center right;
+  background-size: 45%;
   background-repeat: no-repeat;
-  padding-top: 280px;
-  padding-bottom: 25px;
+  position: relative;
+}
+
+.bigdata-analytics-banner.bg-image::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: #011f43;
+  opacity: 0.86;
 }
 
 .bigdata-analytics-content {
