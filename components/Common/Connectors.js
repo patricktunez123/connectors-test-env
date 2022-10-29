@@ -4,10 +4,13 @@ import * as Icon from "react-feather";
 
 const Connectors = () => {
   return (
-    <div className="team-area repair-team-area pt-80 pb-50 bg-eef6fd">
+    <div
+      id="Connectors"
+      className="team-area repair-team-area pt-80 pb-50 bg-eef6fd"
+    >
       <div className="container">
         <div className="section-title">
-          <h2>Meet our connectors</h2>
+          <h2>Our connectors</h2>
           <div className="bar"></div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

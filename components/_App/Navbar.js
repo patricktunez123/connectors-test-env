@@ -64,6 +64,20 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
+                  <Link href="/#Connectors" activeClassName="active">
+                    <a onClick={toggleNavbar} className="nav-link">
+                      Connectors
+                    </a>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link href="/#About" activeClassName="active">
+                    <a onClick={toggleNavbar} className="nav-link">
+                      About Digital Africa
+                    </a>
+                  </Link>
+                </li>
+                <li className="nav-item">
                   <Link href="/faq" activeClassName="active">
                     <a onClick={toggleNavbar} className="nav-link">
                       FAQs

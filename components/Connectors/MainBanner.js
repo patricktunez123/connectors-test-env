@@ -7,7 +7,7 @@ const MainBanner = () => {
       <div className="container">
         <div className="bigdata-analytics-content">
           <h1>
-            Welcome note <br /> by the CEO
+            Meet Our <br /> Connectors
           </h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

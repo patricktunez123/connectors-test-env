@@ -4,7 +4,7 @@ import * as Icon from "react-feather";
 
 const AboutUs = () => {
   return (
-    <div className="what-we-do-area ptb-80">
+    <div id="About" className="what-we-do-area ptb-80">
       <div className="container">
         <div className="section-title">
           <h2>About Digital Africa</h2>
