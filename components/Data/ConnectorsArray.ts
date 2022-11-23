@@ -2,7 +2,7 @@ export const ConnectorsArray = [
   {
     id: 1,
     name: "Edwell Gumbo",
-    post: "Mentor and entrepreneur",
+    post: "",
     company: "",
     socialLinks: [
       {
@@ -17,7 +17,7 @@ export const ConnectorsArray = [
   {
     id: 2,
     name: "Vera MWASINGA",
-    post: "Volunteer at Mandela Fellowship",
+    post: "",
     company: "",
     socialLinks: [
       {
@@ -32,7 +32,7 @@ export const ConnectorsArray = [
   {
     id: 3,
     name: "Mckevin AYABA",
-    post: "Africam entrepreneur and ecosystem builder",
+    post: "",
     company: "",
     socialLinks: [
       {
