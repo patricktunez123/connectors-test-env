@@ -8,10 +8,12 @@ const WelcomeNote = () => {
         <div className="section-title">
           <h2>Welcome note by the Chief Executive Officer</h2>
           <div className="bar"></div>
-          <p>
+        </div>
+        <div className="ceo_notes">
+          <h5>
             Digital Africa is pleased to unveil the first cohort of its
             Connectors program.
-          </p>
+          </h5>
           <p>
             These fifteen high-caliber African personalities, selected from
             several hundred profiles, will now represent Digital Africa in their
@@ -30,12 +32,12 @@ const WelcomeNote = () => {
             collaborative and sustainable manner.
           </p>
 
-          <p>
+          <h6>
             The 15 Connectors of this first cohort, selected for their
             professional experience, their commitment and their strong sense of
             leadership, have the responsibility to carry out four missions in
             their region:
-          </p>
+          </h6>
           <ul>
             <li>
               Take on the role of Ambassador representing Digital Africa in the
@@ -64,7 +66,7 @@ const WelcomeNote = () => {
             design more effective programs and thus reach a maximum number of
             beneficiaries and partners on the continent.
           </p>
-          <p>We wish our 15 Connectors success in their mission!</p>
+          <h5>We wish our 15 Connectors success in their mission!</h5>
         </div>
       </div>
     </div>

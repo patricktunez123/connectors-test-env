@@ -375,6 +375,43 @@ label {
   margin-bottom: 50px;
 }
 
+.ceo_notes {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ceo_notes p,
+.ceo_notes h1,
+.ceo_notes h6,
+.ceo_notes ul {
+  color: #ffffff;
+}
+
+.ceo_notes p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.ceo_notes h6 {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.ceo_notes h5 {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.ceo_notes ul {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .section-title h2 {
   margin-bottom: 0;
   text-transform: capitalize;
@@ -382,11 +419,17 @@ label {
   font-weight: 600;
 }
 
-.section-title p {
-  max-width: 520px;
-  margin: 0 auto;
+.section-title h6 {
+  margin-bottom: 0;
+
+  font-size: 18px;
+  font-weight: 600;
 }
 
+.section-title p {
+  max-width: 600px;
+  margin: 0 auto;
+}
 .section-title .bar {
   height: 5px;
   width: 90px;
@@ -2873,11 +2916,19 @@ Fun Facts CSS
 }
 
 .funfacts-area .section-title h2 {
-  max-width: 570px;
+  max-width: 500px;
   margin: 0 auto;
   line-height: 37px;
 }
+.funfacts-area .section-title h6 {
+  max-width: 500px;
+  margin: 0 auto;
+}
 
+.funfacts-area .section-title ul {
+  max-width: 500px;
+  margin: 0 auto;
+}
 .funfacts-area .map-bg {
   position: absolute;
   z-index: -1;
@@ -2969,8 +3020,18 @@ Fun Facts CSS
   color: #ffffff;
 }
 
+.funfacts-area.bg-image .section-title h6 {
+  color: #ffffff;
+  max-width: 600px;
+}
+
 .funfacts-area.bg-image .section-title p {
   color: #ffffff;
+}
+
+.funfacts-area.bg-image .section-title ul {
+  color: #ffffff;
+  max-width: 500px;
 }
 
 .funfacts-area.bg-image .contact-cta-box {
