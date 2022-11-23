@@ -84,11 +84,11 @@ const Navbar = () => {
               </ul>
             </div>
 
-            <div className="others-option">
+            {/* <div className="others-option">
               <Link href="/contact">
                 <a className="btn btn-primary">Contact us</a>
               </Link>
-            </div>
+            </div> */}
           </nav>
         </div>
       </div>
