@@ -11,16 +11,21 @@ const AboutUs = () => {
           <div className="bar"></div>
           <p>
             Launched in 2018, Digital Africa is a € 130 million initiative aimed
-            to equip African tech entrepreneurs with capabilities to design and
-            scale-up ground-breaking innovations for the real economy. We bring
-            together partners of all nationalities - incubators, institutional
-            financiers, venture capitalists, technology clusters - and all
-            committed to African digital entrepreneurs
+            at equipping African tech entrepreneurs with capabilities to design
+            and scale-up ground-breaking innovations for the real economy. We
+            bring together partners of all nationalities who are all committed
+            to African digital entrepreneurs: incubators, technology clusters,
+            venture capitalists, and institutional financiers, foremost among
+            which are the Agence Française de Développement (AFD) and Proparco.
           </p>
         </div>
 
         <div className="section-title">
-          <h2>We work around 3 main axes:</h2>
+          <h2>
+            Our approach is informed by a clear diagnosis of the needs of
+            entrepreneurs from the field to structure a set of programs around
+            three main areas of focus:{" "}
+          </h2>
           <div className="bar"></div>
         </div>
 
@@ -34,12 +39,12 @@ const AboutUs = () => {
               </div>
               <h3>
                 <Link href="#/">
-                  <a>EQUIPPING HIGH IMPACT DIGITALLY ENABLED START-UP</a>
+                  <a>Focus Area 1</a>
                 </Link>
               </h3>
               <p>
-                Lorem ipsum dolor sit consectetur, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt.
+                Equipping high impact digitally-enabled startups (our proposed
+                approach to better source Digital Innovation).
               </p>
             </div>
           </div>
@@ -54,15 +59,14 @@ const AboutUs = () => {
 
               <h3>
                 <Link href="#/">
-                  <a>
-                    SOURCING AFRICAN AND GLOBAL FINANCE TO SCALE-UP PROJECTS
-                  </a>
+                  <a>Focus Area 2</a>
                 </Link>
               </h3>
 
               <p>
-                Lorem ipsum dolor sit consectetur, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt.
+                Sourcing African and Global Finance to Scale up Projects - and
+                facilitate access to finance (our proposed approach to better
+                scale digital innovation).
               </p>
             </div>
           </div>
@@ -76,17 +80,23 @@ const AboutUs = () => {
               </div>
               <h3>
                 <Link href="#/">
-                  <a>
-                    DEVELOPING RESEARCH & POLICY RECOMMENDATIONS IN SUPPORT OF
-                    MADE IN AFRICA DIGITAL INNOVATIONS
-                  </a>
+                  <a>Focus Area 3</a>
                 </Link>
               </h3>
               <p>
-                Lorem ipsum dolor sit consectetur, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt.
+                Developing research and Policy recommendations in support of
+                Made In Africa Digital Innovation (our proposed approach to
+                better leverage digital innovation).
               </p>
             </div>
+          </div>
+
+          <div className="section-title">
+            <p>
+              Umbrella activities: In support of African tech and innovative
+              ecosystems to disseminate successful made in Africa’ technological
+              ventures.
+            </p>
           </div>
         </div>
       </div>
