@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import * as Icon from "react-feather";
+import { ConnectorsArray } from "../Data/ConnectorsArray";
+import { limitStringLength } from "../helpers/limitStringLength";
 
 const Connectors = () => {
   return (
@@ -13,14 +15,28 @@ const Connectors = () => {
           <h2>Our connectors</h2>
           <div className="bar"></div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            The 15 Connectors of this first cohort, selected for their
+            professional experience, commitment and leadership skills, are
+            responsible for carrying out four missions in their region:
           </p>
+        </div>
+        <div className="connectors_text">
+          <ul>
+            <li>
+              Act as an Ambassador representing Digital Africa in the region and
+              act as a link between their community and Digital Africa
+            </li>
+            <li>Organize activities and events on behalf of Digital Africa</li>
+            <li>
+              Identify and mobilize resources (financial, opportunities, etc...)
+            </li>
+            <li>Assist in mapping ecosystems and help suggest solutions</li>
+          </ul>
         </div>
 
         <div className="row justify-content-center">
-          {[...Array(15)].map((_, index) => (
-            <div key={index} className="col-lg-3 col-md-6">
+          {ConnectorsArray.map((item) => (
+            <div key={item?.id} className="col-lg-3 col-md-6">
               <div className="single-team">
                 <div className="team-image">
                   <img src="/images/team-image/team1.jpg" alt="image" />
@@ -28,8 +44,8 @@ const Connectors = () => {
 
                 <div className="team-content">
                   <div className="team-info">
-                    <h3>Patrick T.</h3>
-                    <span>CEO & Founder at Google</span>
+                    <h3>{item?.name}</h3>
+                    <span>{item?.post}</span>
                   </div>
 
                   <ul>
@@ -55,7 +71,12 @@ const Connectors = () => {
                     </li>
                   </ul>
 
-                  <p>Risus commodo viverra maecenas accumsan lacus.</p>
+                  <p>
+                    {item?.desc && limitStringLength(item?.desc)}{" "}
+                    <span>
+                      <u>read more</u>
+                    </span>
+                  </p>
                 </div>
               </div>
             </div>
