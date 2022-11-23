@@ -15,7 +15,7 @@ const Footer = () => {
               <ul className="social-links">
                 <li>
                   <a
-                    href="https://www.facebook.com/"
+                    href="https://www.facebook.com/Digitalafrica.co"
                     className="facebook"
                     target="_blank"
                   >
@@ -24,7 +24,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.twitter.com/"
+                    href="https://twitter.com/DigitalAfrica__"
                     className="twitter"
                     target="_blank"
                   >
@@ -33,7 +33,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.instagramcom/"
+                    href="https://www.instagram.com/digitalafrica.co/"
                     className="instagram"
                     target="_blank"
                   >
@@ -42,7 +42,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/"
+                    href="https://www.linkedin.com/company/digitalafrica/"
                     className="linkedin"
                     target="_blank"
                   >
