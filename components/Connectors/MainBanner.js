@@ -10,9 +10,11 @@ const MainBanner = () => {
             Meet Our <br /> Connectors
           </h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-            ipsum suspendisse ultrices gravida.
+            Fifteen high-caliber African personalities, selected from several
+            hundred profiles, representing Digital Africa in their respective
+            regions on the continent to collaborate and contribute to the
+            advancement of local and regional entrepreneurial and technological
+            ecosystems, research and investment in Africa.
           </p>
         </div>
       </div>
