@@ -97,60 +97,60 @@ const Connectors = () => {
               </div>
             </div>
           ))}
-        </div>
-      </div>
 
-      <Modal
-        title={connector?.name}
-        open={isModalOpen}
-        onOk={handleOk}
-        onCancel={handleCancel}
-        centered
-        className="connector_modal"
-        footer={false}
-      >
-        <div className="row justify-content-center">
-          <div key={connector?.id} className="col-lg-12 col-md-12">
-            <div className="single-team">
-              <div className="team-image">
-                <img src="/images/team-image/team1.jpg" alt="image" />
-              </div>
+          <Modal
+            title={connector?.name}
+            open={isModalOpen}
+            onOk={handleOk}
+            onCancel={handleCancel}
+            centered
+            className="connector_modal"
+            footer={false}
+          >
+            <div className="row justify-content-center">
+              <div key={connector?.id} className="col-lg-12 col-md-12">
+                <div className="single-team">
+                  <div className="team-image">
+                    <img src="/images/team-image/team1.jpg" alt="image" />
+                  </div>
 
-              <div className="team-content">
-                <div className="team-info">
-                  <h3>{connector?.name}</h3>
-                  <span>{connector?.post}</span>
+                  <div className="team-content">
+                    <div className="team-info">
+                      <h3>{connector?.name}</h3>
+                      <span>{connector?.post}</span>
+                    </div>
+
+                    <ul>
+                      <li>
+                        <a href="https://www.facebook.com/" target="_blank">
+                          <Icon.Facebook />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.twitter.com/" target="_blank">
+                          <Icon.Twitter />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.linkedin.com/" target="_blank">
+                          <Icon.Linkedin />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                          <Icon.Instagram />
+                        </a>
+                      </li>
+                    </ul>
+
+                    <p>{connector?.desc}</p>
+                  </div>
                 </div>
-
-                <ul>
-                  <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                      <Icon.Facebook />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.twitter.com/" target="_blank">
-                      <Icon.Twitter />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
-                      <Icon.Linkedin />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                      <Icon.Instagram />
-                    </a>
-                  </li>
-                </ul>
-
-                <p>{connector?.desc}</p>
               </div>
             </div>
-          </div>
+          </Modal>
         </div>
-      </Modal>
+      </div>
     </div>
   );
 };
