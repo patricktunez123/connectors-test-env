@@ -10,6 +10,7 @@ import "swiper/css/bundle";
 import "../public/css/style.css";
 import "../public/css/responsive.css";
 import "../public/css/rtl.css";
+import "../config/i18n";
 
 import Layout from "../components/_App/Layout";
 

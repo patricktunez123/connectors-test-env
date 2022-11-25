@@ -808,6 +808,9 @@ Navbar CSS
 
 .Connectors_Digital_Africa-nav nav .others-option {
   margin-left: 20px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
 .Connectors_Digital_Africa-nav nav .others-option .cart-wrapper-btn {

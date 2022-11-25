@@ -1,7 +1,13 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import Link from "../../utils/ActiveLink";
 const Navbar = () => {
   const [menu, setMenu] = React.useState(true);
+
+  const { i18n, t } = useTranslation();
+  const handleChangeLang = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   const toggleNavbar = () => {
     setMenu(!menu);
@@ -63,32 +69,42 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link href="/" activeClassName="active">
                     <a onClick={toggleNavbar} className="nav-link">
-                      Home
+                      {t("navContent.Home")}
                     </a>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link href="/#Connectors" activeClassName="active">
                     <a onClick={toggleNavbar} className="nav-link">
-                      Connectors
+                      {t("navContent.Connectors")}
                     </a>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link href="/#About" activeClassName="active">
                     <a onClick={toggleNavbar} className="nav-link">
-                      About Digital Africa
+                      {t("navContent.AboutDigitalAfrica")}
                     </a>
                   </Link>
                 </li>
               </ul>
             </div>
 
-            {/* <div className="others-option">
-              <Link href="/contact">
-                <a className="btn btn-primary">Contact us</a>
-              </Link>
-            </div> */}
+            <div className="others-option">
+              <button
+                className="btn btn-primary"
+                onClick={() => handleChangeLang("en")}
+              >
+                EN
+              </button>
+
+              <button
+                className="btn btn-primary"
+                onClick={() => handleChangeLang("fr")}
+              >
+                FR
+              </button>
+            </div>
           </nav>
         </div>
       </div>

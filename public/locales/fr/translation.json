@@ -1,0 +1,49 @@
+{
+  "navContent": {
+    "changeLang": "Change the language",
+    "Home": "Page d'accueil",
+    "Connectors": "Connecteurs",
+    "AboutDigitalAfrica": "À propos de  Digital Africa"
+  },
+  "MainBanner": {
+    "Title": "Découvrez nos connectors",
+    "p1": "Quinze personnalités africaines de haut calibre, sélectionnées parmi plusieurs centaines de profils, représentant Digital Africa dans leurs régions respectives sur le continent pour collaborer et contribuer à l’avancement des écosystèmes entrepreneuriaux et technologiques locaux et régionaux, de recherche et d’investissement en Afrique."
+  },
+  "WelcomeNote": {
+    "Title": "Message de bienvenue par la Directrice Générale ",
+    "p1": "Digital Africa a le plaisir de dévoiler la première cohorte de son programme Connectors. ",
+    "p2": "Ces quinze personnalités africaines de haut calibre, sélectionnées parmi plusieurs centaines de profils, vont désormais représenter Digital Africa dans leurs régions respectives sur le continent pour collaborer et contribuer à l’avancement des écosystèmes entrepreneuriaux et technologiques locaux et régionaux, de recherche et d’investissement en Afrique.",
+    "p3": "Avec son programme Connectors, Digital Africa entend renforcer son ancrage sur le territoire africain pour se connecter au plus près des réalités et enjeux de terrain, et s’appuyer sur celles et ceux qui font vivre l’écosystème tech sur le continent en leur donnant les moyens d’amplifier leur impact sur le développement des écosystèmes locaux et régionaux de manière inclusive, collaborative et durable. ",
+    "p4": "Les 15 Connectors de cette première cohorte, retenus pour leurs expériences professionnelles, leur engagement et leur sens aigu du leadership, ont la responsabilité de mener quatre missions dans leur région : ",
+    "l1": "Endosser le rôle d’Ambassadeur représentant Digital Africa dans la région et assurer le lien entre leur communauté et Digital Africa",
+    "l2": "Organiser des activités et événements au nom de Digital Africa",
+    "l3": "Identifier et mobiliser des ressources (financières, opportunités, etc...)",
+    "l4": "Aider à cartographier les écosystèmes et contribuer à suggérer des solutions",
+    "p5": "Nous sommes convaincus que l'Afrique a besoin de solutions conçues par des Africains pour répondre aux problèmes structurels et infrastructurels du continent, que ce soit dans la santé, le sport, l'énergie, l'agriculture et nous pensons que c'est dans la tech made in Africa qui pourra le faire. Notre programme Connectors s’inscrit dans cette optique. Conçu dans une démarche bottom-up, il contribue à consolider l’approche en réseau au cœur de la vision de Digital Africa, à travers son objectif : soutenir, fédérer et renforcer cet écosystème, pour avancer ensemble. Déjà fort d’une communauté solide et dynamique, constitué de partenariats efficaces avec des incubateurs, des hubs, des financiers institutionnels, des capital-risqueurs, des clusters tech, des organismes de formation, universités, etc., Digital Africa accentue ainsi son ancrage local pour mieux appréhender les besoins, concevoir des programmes plus efficaces et ainsi toucher un maximum de bénéficiaires et de partenaires sur le continent. ",
+    "p6": "Plein succès à nos 15 Connectors dans la réalisation de leur mission !"
+  },
+  "OurConnectors": {
+    "Title": "Nos connectors ",
+    "p1": "Les 15 Connectors de cette première cohorte, retenus pour leurs expériences professionnelles, leur engagement et leur sens aigu du leadership, ont la responsabilité de mener quatre missions dans leur région : ",
+    "l1": "Endosser le rôle d’Ambassadeur représentant Digital Africa dans la région et assurer le lien entre leur communauté et Digital Africa",
+    "l2": "Organiser des activités et événements au nom de Digital Africa",
+    "l3": "Identifier et mobiliser des ressources (financières, opportunités, etc...)",
+    "l4": "Aider à cartographier les écosystèmes et contribuer à suggérer des solutions"
+  },
+  "OurCommitment": {
+    "Title": "Notre engagement ",
+    "p1": "Notre vision consiste à favoriser une économie mondiale plus inclusive et durable grâce à l’innovation numérique « Made in Africa », et ce à travers des projets qui deviendront des références mondiales au fil du temps. L’Afrique avec laquelle nous travaillons au quotidien est sans aucun doute le nouveau moteur de la croissance mondiale ; c’est aussi un laboratoire d’idées qui peut inspirer toutes les régions du monde, qu’elles soient émergentes ou développées. En assumant avec enthousiasme et conviction un rôle de passerelle entre l’Afrique et le reste du monde, nous contribuons à attirer l’attention sur les solutions africaines et à connecter l’Afrique aux chaînes de valeur mondiales. Ainsi, nous définissons un nouveau modèle de co-développement autour d’intérêts communs qui rapproche l’Afrique et ses partenaires internationaux."
+  },
+  "AboutDigitalAfrica": {
+    "Title": "A propos de Digital Africa",
+    "p1": "Lancée en 2018, Digital Africa est une initiative de 130 millions d’euros visant à doter les entrepreneurs technologiques africains des moyens nécessaires pour concevoir et développer des innovations révolutionnaires au service de l’économie réelle. Nous rassemblons des partenaires de toutes nationalités qui s’engagent auprès des entrepreneurs numériques africains : incubateurs, clusters technologiques, capital-risqueurs, financiers institutionnels, dont notamment l’Agence Française de Développement (AFD) et Proparco",
+    "p2": "Notre approche repose sur un diagnostic clair des besoins des entrepreneurs sur le terrain pour structurer un ensemble de programmes autour de trois principaux domaines d’intervention: ",
+    "f1Title": "PILIER 1",
+    "f2Title": "PILIER 2",
+    "f3Title": "PILIER 3",
+    "f1P": "Accompagner les startups numériques à fort impact et mieux sourcer l’innovation numérique",
+    "f2P": "Rechercher des financements africains et mondiaux pour développer des projets et faciliter l’accès au financement et mieux dimensionner l’innovation numérique)",
+    "f3P": "Soutenir les politiques faisant progresser l’entrepreneuriat numérique innovant à travers l’Afrique (notre approche proposée pour mieux tirer parti de l’innovation numérique",
+    "p3": "ACTIVITÉS OMBRELLES: En soutien aux écosystèmes d’innovation numérique pour faciliter l’émergence de champions de la tech «Made in Africa»"
+  }
+}
