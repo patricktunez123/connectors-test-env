@@ -87,6 +87,18 @@ This files table contents are outlined below>>>>>
 /*================================================
 Default CSS
 =================================================*/
+.connector_modal .ant-modal-body::-webkit-scrollbar-track {
+  background-color: inherit !important;
+  margin-bottom: 0px !important;
+}
+
+.connector_modal .ant-modal-body {
+  max-height: 550px !important;
+  overflow: auto !important;
+  padding-bottom: 24px !important;
+  overflow-x: hidden !important;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   padding: 0;

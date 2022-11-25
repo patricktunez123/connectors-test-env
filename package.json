@@ -11,6 +11,7 @@
   "author": "Digital-Africa",
   "dependencies": {
     "animate.css": "^4.1.1",
+    "antd": "^5.0.1",
     "next": "^12.1.4",
     "react": "^18.2.0",
     "react-accessible-accordion": "^5.0.0",
