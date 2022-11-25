@@ -1,21 +1,16 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 // import * as Icon from "react-feather";
 
 const MainBanner = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="bigdata-analytics-banner bg-image">
       <div className="container">
         <div className="bigdata-analytics-content">
-          <h1>
-            Meet Our <br /> Connectors
-          </h1>
-          <p>
-            Fifteen high-caliber African personalities, selected from several
-            hundred profiles, representing Digital Africa in their respective
-            regions on the continent to collaborate and contribute to the
-            advancement of local and regional entrepreneurial and technological
-            ecosystems, research and investment in Africa.
-          </p>
+          <h1>{t("MainBanner.Title")}</h1>
+          <p>{t("MainBanner.p1")}</p>
         </div>
       </div>
 

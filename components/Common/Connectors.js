@@ -4,8 +4,11 @@ import * as Icon from "react-feather";
 import { ConnectorsArray } from "../Data/ConnectorsArray";
 import { limitStringLength } from "../helpers/limitStringLength";
 import { Button, Modal } from "antd";
+import { useTranslation } from "react-i18next";
 
 const Connectors = () => {
+  const { t } = useTranslation();
+
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [connector, setConnector] = useState();
   const showModal = (item) => {
@@ -28,25 +31,16 @@ const Connectors = () => {
     >
       <div className="container">
         <div className="section-title">
-          <h2>Our connectors</h2>
+          <h2>{t("OurConnectors.Title")}</h2>
           <div className="bar"></div>
-          <p>
-            The 15 Connectors of this first cohort, selected for their
-            professional experience, commitment and leadership skills, are
-            responsible for carrying out four missions in their region:
-          </p>
+          <p>{t("OurConnectors.p1")}</p>
         </div>
         <div className="connectors_text">
           <ul>
-            <li>
-              Act as an Ambassador representing Digital Africa in the region and
-              act as a link between their community and Digital Africa
-            </li>
-            <li>Organize activities and events on behalf of Digital Africa</li>
-            <li>
-              Identify and mobilize resources (financial, opportunities, etc...)
-            </li>
-            <li>Assist in mapping ecosystems and help suggest solutions</li>
+            <li>{t("OurConnectors.l1")}</li>
+            <li>{t("OurConnectors.l2")}</li>
+            <li>{t("OurConnectors.l3")}</li>
+            <li>{t("OurConnectors.l4")}</li>
           </ul>
         </div>
 
