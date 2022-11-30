@@ -39,8 +39,12 @@ const Navbar = () => {
       <div className="Connectors_Digital_Africa-nav">
         <div className="container">
           <nav className="navbar navbar-expand-md navbar-light">
-            <Link href="/">
-              <a onClick={toggleNavbar} className="navbar-brand">
+            <Link target="_blank" href="https://digital-africa.co/">
+              <a
+                target="_blank"
+                onClick={toggleNavbar}
+                className="navbar-brand"
+              >
                 <img
                   style={{ width: "130px" }}
                   src="/images/logo.svg"

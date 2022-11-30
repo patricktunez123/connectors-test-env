@@ -65,11 +65,6 @@ const Connectors = () => {
 
                   <ul>
                     <li>
-                      <a href="https://www.facebook.com/" target="_blank">
-                        <Icon.Facebook />
-                      </a>
-                    </li>
-                    <li>
                       <a href="https://www.twitter.com/" target="_blank">
                         <Icon.Twitter />
                       </a>
@@ -77,11 +72,6 @@ const Connectors = () => {
                     <li>
                       <a href="https://www.linkedin.com/" target="_blank">
                         <Icon.Linkedin />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.instagram.com/" target="_blank">
-                        <Icon.Instagram />
                       </a>
                     </li>
                   </ul>
