@@ -54,7 +54,12 @@ const Connectors = () => {
 
                 <div className="team-content">
                   <div className="team-info">
-                    <h3>{item?.name}</h3>
+                    <h3>
+                      {item?.name &&
+                        item?.name?.split(" ")[0] +
+                          " " +
+                          item?.name?.split(" ")[1].toLocaleUpperCase()}
+                    </h3>
                     <span>{item?.post}</span>
                   </div>
 
@@ -110,7 +115,13 @@ const Connectors = () => {
 
                   <div className="team-content">
                     <div className="team-info">
-                      <h3>{connector?.name}</h3>
+                      <h3>
+                        {" "}
+                        {connector?.name &&
+                          connector?.name?.split(" ")[0] +
+                            " " +
+                            connector?.name?.split(" ")[1].toLocaleUpperCase()}
+                      </h3>
                       <span>{connector?.post}</span>
                     </div>
 
