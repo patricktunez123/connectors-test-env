@@ -67,7 +67,7 @@ const AboutUs = () => {
                   <a>{t("AboutDigitalAfrica.f3Title")}</a>
                 </Link>
               </h3>
-              <p>{t("AboutDigitalAfrica.f2P")}</p>
+              <p>{t("AboutDigitalAfrica.f3P")}</p>
             </div>
           </div>
 
