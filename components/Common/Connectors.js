@@ -22,8 +22,6 @@ const Connectors = () => {
     setIsModalOpen(false);
   };
 
-  console.log("connector", connector);
-
   return (
     <div
       id="Connectors"
@@ -54,30 +52,28 @@ const Connectors = () => {
 
                 <div className="team-content">
                   <div className="team-info">
-                    <h3>
-                      {item?.name &&
-                        item?.name?.split(" ")[0] +
-                          " " +
-                          item?.name?.split(" ")[1].toLocaleUpperCase()}
-                    </h3>
+                    <h3>{item?.name}</h3>
                     <span>{item?.post}</span>
                   </div>
 
                   <ul>
                     <li>
-                      <a href="https://www.twitter.com/" target="_blank">
+                      <a href={item?.socialLinks[0]?.twitter} target="_blank">
                         <Icon.Twitter />
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.linkedin.com/" target="_blank">
+                      <a href={item?.socialLinks[0]?.linkdin} target="_blank">
                         <Icon.Linkedin />
                       </a>
                     </li>
                   </ul>
 
                   <p>
-                    {item?.desc && limitStringLength(item?.desc)}{" "}
+                    {item?.id &&
+                      limitStringLength(
+                        t(`ConnectorsItems.c${item?.id}Desc`)
+                      )}{" "}
                     <Button onClick={() => showModal(item)} type="text">
                       read more
                     </Button>
@@ -105,40 +101,34 @@ const Connectors = () => {
 
                   <div className="team-content">
                     <div className="team-info">
-                      <h3>
-                        {" "}
-                        {connector?.name &&
-                          connector?.name?.split(" ")[0] +
-                            " " +
-                            connector?.name?.split(" ")[1].toLocaleUpperCase()}
-                      </h3>
+                      <h3> {connector?.name}</h3>
                       <span>{connector?.post}</span>
                     </div>
 
                     <ul>
                       <li>
-                        <a href="https://www.facebook.com/" target="_blank">
-                          <Icon.Facebook />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.twitter.com/" target="_blank">
+                        <a
+                          href={connector?.socialLinks[0]?.twitter}
+                          target="_blank"
+                        >
                           <Icon.Twitter />
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.linkedin.com/" target="_blank">
+                        <a
+                          href={connector?.socialLinks[0]?.linkdin}
+                          target="_blank"
+                        >
                           <Icon.Linkedin />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.instagram.com/" target="_blank">
-                          <Icon.Instagram />
                         </a>
                       </li>
                     </ul>
 
-                    <p>{connector?.desc}</p>
+                    <p>
+                      {" "}
+                      {connector?.id &&
+                        t(`ConnectorsItems.c${connector?.id}Desc`)}{" "}
+                    </p>
                   </div>
                 </div>
               </div>
