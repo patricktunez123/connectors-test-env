@@ -44,10 +44,12 @@ const Connectors = () => {
 
         <div className="row justify-content-center">
           {ConnectorsArray.map((item) => (
-            <div key={item?.id} className="col-lg-3 col-md-6">
+            <div key={item?.id} className="col-lg-4 col-md-4">
               <div className="single-team">
-                <div className="team-image">
-                  <img src={item?.imageURL} alt="image" />
+                <div className="image_container">
+                  <div className="team-image">
+                    <img src={item?.imageURL} alt="image" />
+                  </div>
                 </div>
 
                 <div className="team-content">
