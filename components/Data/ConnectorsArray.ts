@@ -2,7 +2,7 @@ export const ConnectorsArray = [
   {
     id: 1,
     name: "Dr Lawrence NDERU,(PhD), Kenya",
-    imageURL: "/images/team-image/Lawrence NDERU.png",
+    imageURL: "/images/team-image/cloped.png",
     company: "",
     socialLinks: [
       {

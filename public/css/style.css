@@ -2728,15 +2728,17 @@ Team CSS
   z-index: 1;
   padding-left: 35px;
   padding-right: 35px;
+  height: 150px;
 }
 
 .single-team .team-image img {
   border: 3px solid #eef6fd;
   width: auto !important;
-  border-radius: 50%;
+  border-radius: 999px;
   display: inline-block !important;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  height: 100%;
 }
 
 .single-team .team-image::before {
@@ -2797,6 +2799,7 @@ Team CSS
   margin-top: 25px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  min-height: 60px;
 }
 
 .single-team .team-info h3 {

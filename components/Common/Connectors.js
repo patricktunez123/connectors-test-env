@@ -102,7 +102,6 @@ const Connectors = () => {
                   <div className="team-content">
                     <div className="team-info">
                       <h3> {connector?.name}</h3>
-                      <span>{connector?.post}</span>
                     </div>
 
                     <ul>
