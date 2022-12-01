@@ -47,7 +47,7 @@ const Connectors = () => {
             <div key={item?.id} className="col-lg-3 col-md-6">
               <div className="single-team">
                 <div className="team-image">
-                  <img src="/images/team-image/team1.jpg" alt="image" />
+                  <img src={item?.imageURL} alt="image" />
                 </div>
 
                 <div className="team-content">
@@ -96,7 +96,7 @@ const Connectors = () => {
               <div key={connector?.id} className="col-lg-12 col-md-12">
                 <div className="single-team">
                   <div className="team-image">
-                    <img src="/images/team-image/team1.jpg" alt="image" />
+                    <img src={connector?.imageURL} alt="image" />
                   </div>
 
                   <div className="team-content">

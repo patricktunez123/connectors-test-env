@@ -2,7 +2,7 @@ export const ConnectorsArray = [
   {
     id: 1,
     name: "Dr Lawrence NDERU,(PhD), Kenya",
-    post: "",
+    imageURL: "/images/team-image/Lawrence NDERU.png",
     company: "",
     socialLinks: [
       {
@@ -14,7 +14,7 @@ export const ConnectorsArray = [
   {
     id: 2,
     name: "McKevin AYABA, South Africa, ",
-    post: "",
+    imageURL: "/images/team-image/Mckevin AYABA.jpg",
     company: "",
     socialLinks: [
       {
@@ -26,7 +26,7 @@ export const ConnectorsArray = [
   {
     id: 3,
     name: "Filip KABEYA MULOMBELA, DRC,  ",
-    post: "",
+    imageURL: "/images/team-image/Filip KABEYA MULOMBELA.jpeg",
     company: "",
     socialLinks: [
       {
@@ -38,7 +38,7 @@ export const ConnectorsArray = [
   {
     id: 4,
     name: "Dr. Itoro Charles EMEMBOLU, Nigeria",
-    post: "",
+    imageURL: "/images/team-image/Dr. Itoro Charles EMEMBOLU.JPG",
     company: "",
     socialLinks: [
       {
@@ -51,7 +51,7 @@ export const ConnectorsArray = [
   {
     id: 5,
     name: "Belgacem OUAFA, Tunisia",
-    post: "",
+    imageURL: "/images/team-image/Belgacem OUAFA.jpg",
     company: "",
     socialLinks: [
       {
@@ -63,7 +63,7 @@ export const ConnectorsArray = [
   {
     id: 6,
     name: "Séraphine EKOA, Congo ",
-    post: "",
+    imageURL: "/images/team-image/Seraphine EKOA.jpg",
     company: "",
     socialLinks: [
       {
@@ -75,7 +75,7 @@ export const ConnectorsArray = [
   {
     id: 7,
     name: "Rodrigue FOUAFOU, Rwanda",
-    post: "",
+    imageURL: "/images/team-image/Rodrigue FOUAFOU.jpeg",
     company: "",
     socialLinks: [
       {
@@ -87,7 +87,7 @@ export const ConnectorsArray = [
   {
     id: 8,
     name: "Johanne BRUFFAERTS, Benin",
-    post: "",
+    imageURL: "/images/team-image/Johanne BRUFFAERTS.jpg",
     company: "",
     socialLinks: [
       {
@@ -99,7 +99,7 @@ export const ConnectorsArray = [
   {
     id: 9,
     name: "Gilbert Junior BUREGYEYA, Uganda",
-    post: "",
+    imageURL: "/images/team-image/Gilbert Junior BUREGYEYA.jpg",
     company: "",
     socialLinks: [
       {
@@ -112,7 +112,7 @@ export const ConnectorsArray = [
   {
     id: 10,
     name: "Vera MWASINGA, Zambia",
-    post: "",
+    imageURL: "/images/team-image/Vera MWASINGA.jpg",
     company: "",
     socialLinks: [
       {
@@ -124,7 +124,7 @@ export const ConnectorsArray = [
   {
     id: 11,
     name: "Christelle ASSIROU, Côte d’Ivoire",
-    post: "",
+    imageURL: "/images/team-image/Christelle ASSIROU.jpg",
     company: "",
     socialLinks: [
       {
@@ -137,7 +137,7 @@ export const ConnectorsArray = [
   {
     id: 12,
     name: "Nene Keita-DIALO, Mali",
-    post: "",
+    imageURL: "/images/team-image/Nene Keita-DIALO.jpg",
     company: "",
     socialLinks: [
       {
@@ -149,7 +149,7 @@ export const ConnectorsArray = [
   {
     id: 13,
     name: "Dr. Mandiaye NDAO, Sénégal",
-    post: "",
+    imageURL: "/images/team-image/Ndao MANDIAYE.jpg",
     company: "",
     socialLinks: [
       {
@@ -161,7 +161,7 @@ export const ConnectorsArray = [
   {
     id: 14,
     name: "Bastawy AHMED, Egypt",
-    post: "",
+    imageURL: "/images/team-image/Bastawy AHMED - Pic.jpeg",
     company: "",
     socialLinks: [
       {
