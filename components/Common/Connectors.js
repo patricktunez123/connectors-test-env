@@ -57,16 +57,21 @@ const Connectors = () => {
                   </div>
 
                   <ul>
-                    <li>
-                      <a href={item?.socialLinks[0]?.twitter} target="_blank">
-                        <Icon.Twitter />
-                      </a>
-                    </li>
-                    <li>
-                      <a href={item?.socialLinks[0]?.linkdin} target="_blank">
-                        <Icon.Linkedin />
-                      </a>
-                    </li>
+                    {item?.socialLinks[0]?.twitter && (
+                      <li>
+                        <a href={item?.socialLinks[0]?.twitter} target="_blank">
+                          <Icon.Twitter />
+                        </a>
+                      </li>
+                    )}
+
+                    {item?.socialLinks[0]?.linkdin && (
+                      <li>
+                        <a href={item?.socialLinks[0]?.linkdin} target="_blank">
+                          <Icon.Linkedin />
+                        </a>
+                      </li>
+                    )}
                   </ul>
 
                   <p>
@@ -103,24 +108,28 @@ const Connectors = () => {
                     <div className="team-info">
                       <h3> {connector?.name}</h3>
                     </div>
-
                     <ul>
-                      <li>
-                        <a
-                          href={connector?.socialLinks[0]?.twitter}
-                          target="_blank"
-                        >
-                          <Icon.Twitter />
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href={connector?.socialLinks[0]?.linkdin}
-                          target="_blank"
-                        >
-                          <Icon.Linkedin />
-                        </a>
-                      </li>
+                      {connector?.socialLinks[0]?.twitter && (
+                        <li>
+                          <a
+                            href={connector?.socialLinks[0]?.twitter}
+                            target="_blank"
+                          >
+                            <Icon.Twitter />
+                          </a>
+                        </li>
+                      )}
+
+                      {connector?.socialLinks[0]?.linkdin && (
+                        <li>
+                          <a
+                            href={connector?.socialLinks[0]?.linkdin}
+                            target="_blank"
+                          >
+                            <Icon.Linkedin />
+                          </a>
+                        </li>
+                      )}
                     </ul>
 
                     <p>
