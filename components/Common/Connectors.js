@@ -5,6 +5,7 @@ import { ConnectorsArray } from "../Data/ConnectorsArray";
 import { limitStringLength } from "../helpers/limitStringLength";
 import { Button, Modal } from "antd";
 import { useTranslation } from "react-i18next";
+import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 const Connectors = () => {
   const { t } = useTranslation();
@@ -55,7 +56,10 @@ const Connectors = () => {
                 <div className="team-content">
                   <div className="team-info">
                     <h3>{item?.name}</h3>
-                    <span>{item?.post}</span>
+                    <div className="country_container">
+                      <span>{item?.country}</span>
+                      <span class={`fi fi-${item?.countryFlag}`}></span>
+                    </div>
                   </div>
 
                   <ul>
@@ -102,13 +106,19 @@ const Connectors = () => {
             <div className="row justify-content-center">
               <div key={connector?.id} className="col-lg-12 col-md-12">
                 <div className="single-team">
-                  <div className="team-image">
-                    <img src={connector?.imageURL} alt="image" />
+                  <div className="image_container">
+                    <div className="team-image">
+                      <img src={connector?.imageURL} alt="image" />
+                    </div>
                   </div>
 
                   <div className="team-content">
                     <div className="team-info">
                       <h3> {connector?.name}</h3>
+                      <div className="country_container">
+                        <span>{connector?.country}</span>
+                        <span class={`fi fi-${connector?.countryFlag}`}></span>
+                      </div>
                     </div>
                     <ul>
                       {connector?.socialLinks[0]?.twitter && (

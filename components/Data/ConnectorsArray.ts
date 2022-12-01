@@ -1,7 +1,9 @@
 export const ConnectorsArray = [
   {
     id: 1,
-    name: "Dr Lawrence NDERU,(PhD), Kenya",
+    name: "Dr Lawrence NDERU, (PhD)",
+    country: "Kenya",
+    countryFlag: "ke",
     imageURL: "/images/team-image/cloped.png",
     company: "",
     socialLinks: [
@@ -13,7 +15,9 @@ export const ConnectorsArray = [
   },
   {
     id: 2,
-    name: "McKevin AYABA, South Africa, ",
+    name: "McKevin AYABA ",
+    country: "South Africa",
+    countryFlag: "za",
     imageURL: "/images/team-image/Mckevin AYABA.jpg",
     company: "",
     socialLinks: [
@@ -25,7 +29,9 @@ export const ConnectorsArray = [
   },
   {
     id: 3,
-    name: "Filip KABEYA MULOMBELA, DRC,  ",
+    name: "Filip KABEYA MULOMBELA  ",
+    country: "DRC",
+    countryFlag: "cg",
     imageURL: "/images/team-image/Filip KABEYA MULOMBELA.jpeg",
     company: "",
     socialLinks: [
@@ -37,7 +43,9 @@ export const ConnectorsArray = [
   },
   {
     id: 4,
-    name: "Dr. Itoro Charles EMEMBOLU, Nigeria",
+    name: "Dr. Itoro Charles EMEMBOLU",
+    country: "Nigeria",
+    countryFlag: "ng",
     imageURL: "/images/team-image/Dr. Itoro Charles EMEMBOLU.JPG",
     company: "",
     socialLinks: [
@@ -50,7 +58,9 @@ export const ConnectorsArray = [
   },
   {
     id: 5,
-    name: "Belgacem OUAFA, Tunisia",
+    name: "Belgacem OUAFA",
+    country: "Tunisia",
+    countryFlag: "tn",
     imageURL: "/images/team-image/Belgacem OUAFA.jpg",
     company: "",
     socialLinks: [
@@ -62,7 +72,9 @@ export const ConnectorsArray = [
   },
   {
     id: 6,
-    name: "Séraphine EKOA, Congo ",
+    name: "Séraphine EKOA ",
+    country: "Congo",
+    countryFlag: "cd",
     imageURL: "/images/team-image/Seraphine EKOA.jpg",
     company: "",
     socialLinks: [
@@ -74,7 +86,9 @@ export const ConnectorsArray = [
   },
   {
     id: 7,
-    name: "Rodrigue FOUAFOU, Rwanda",
+    name: "Rodrigue FOUAFOU",
+    country: "Rwanda",
+    countryFlag: "rw",
     imageURL: "/images/team-image/Rodrigue FOUAFOU.jpeg",
     company: "",
     socialLinks: [
@@ -86,7 +100,9 @@ export const ConnectorsArray = [
   },
   {
     id: 8,
-    name: "Johanne BRUFFAERTS, Benin",
+    name: "Johanne BRUFFAERTS",
+    country: "Benin",
+    countryFlag: "bj",
     imageURL: "/images/team-image/Johanne BRUFFAERTS.jpg",
     company: "",
     socialLinks: [
@@ -98,7 +114,9 @@ export const ConnectorsArray = [
   },
   {
     id: 9,
-    name: "Gilbert Junior BUREGYEYA, Uganda",
+    name: "Gilbert Junior BUREGYEYA",
+    country: "Uganda",
+    countryFlag: "ug",
     imageURL: "/images/team-image/Gilbert Junior BUREGYEYA.jpg",
     company: "",
     socialLinks: [
@@ -111,7 +129,9 @@ export const ConnectorsArray = [
   },
   {
     id: 10,
-    name: "Vera MWASINGA, Zambia",
+    name: "Vera MWASINGA",
+    country: "Zambia",
+    countryFlag: "zm",
     imageURL: "/images/team-image/Vera MWASINGA.jpg",
     company: "",
     socialLinks: [
@@ -123,7 +143,9 @@ export const ConnectorsArray = [
   },
   {
     id: 11,
-    name: "Christelle ASSIROU, Côte d’Ivoire",
+    name: "Christelle ASSIROU",
+    country: "Côte d’Ivoire",
+    countryFlag: "ci",
     imageURL: "/images/team-image/Christelle ASSIROU.jpg",
     company: "",
     socialLinks: [
@@ -136,7 +158,9 @@ export const ConnectorsArray = [
   },
   {
     id: 12,
-    name: "Nene Keita-DIALO, Mali",
+    name: "Nene Keita-DIALO",
+    country: "Mali",
+    countryFlag: "ml",
     imageURL: "/images/team-image/Nene Keita-DIALO.jpg",
     company: "",
     socialLinks: [
@@ -148,7 +172,9 @@ export const ConnectorsArray = [
   },
   {
     id: 13,
-    name: "Dr. Mandiaye NDAO, Sénégal",
+    name: "Dr. Mandiaye NDAO",
+    country: "Sénégal",
+    countryFlag: "sn",
     imageURL: "/images/team-image/Ndao MANDIAYE.jpg",
     company: "",
     socialLinks: [
@@ -160,7 +186,9 @@ export const ConnectorsArray = [
   },
   {
     id: 14,
-    name: "Bastawy AHMED, Egypt",
+    name: "Bastawy AHMED",
+    country: "Egypt",
+    countryFlag: "eg",
     imageURL: "/images/team-image/Bastawy AHMED - Pic.jpeg",
     company: "",
     socialLinks: [

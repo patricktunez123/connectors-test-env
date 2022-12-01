@@ -2737,6 +2737,13 @@ Team CSS
   border-radius: 50%;
 }
 
+.country_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
 .single-team .team-image img {
   border: 3px solid #000000;
   border-radius: 50%;
