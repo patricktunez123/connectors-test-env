@@ -31,7 +31,7 @@ export const ConnectorsArray = [
     id: 3,
     name: "Filip KABEYA MULOMBELA  ",
     country: "DRC",
-    countryFlag: "cg",
+    countryFlag: "cd",
     imageURL: "/images/team-image/Filip KABEYA MULOMBELA.jpeg",
     company: "",
     socialLinks: [
@@ -74,7 +74,7 @@ export const ConnectorsArray = [
     id: 6,
     name: "Séraphine EKOA ",
     country: "Congo",
-    countryFlag: "cd",
+    countryFlag: "cg",
     imageURL: "/images/team-image/Seraphine EKOA.jpg",
     company: "",
     socialLinks: [
