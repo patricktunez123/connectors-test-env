@@ -59,6 +59,7 @@ const Connectors = () => {
                     <div className="country_container">
                       <span>{item?.country}</span>
                       <span class={`fi fi-${item?.countryFlag}`}></span>
+                      {item?.id === 15 && <span class="fi fi-tn"></span>}
                     </div>
                   </div>
 

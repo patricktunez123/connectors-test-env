@@ -198,4 +198,18 @@ export const ConnectorsArray = [
       },
     ],
   },
+  {
+    id: 15,
+    name: "Tarek CHELAIFA",
+    country: "Northern Africa",
+    countryFlag: "ma",
+    imageURL: "",
+    company: "",
+    socialLinks: [
+      {
+        twitter: "",
+        linkdin: "",
+      },
+    ],
+  },
 ];
