@@ -203,7 +203,7 @@ export const ConnectorsArray = [
     name: "Tarek CHELAIFA",
     country: "Northern Africa",
     countryFlag: "ma",
-    imageURL: "",
+    imageURL: "/images/team-image/Tarek CHELAIFA.jfif",
     company: "",
     socialLinks: [
       {
