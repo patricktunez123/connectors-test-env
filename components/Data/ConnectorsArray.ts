@@ -207,8 +207,8 @@ export const ConnectorsArray = [
     company: "",
     socialLinks: [
       {
-        twitter: "",
-        linkdin: "",
+        twitter: "https://twitter.com/ChelaifaTarek",
+        linkdin: "https://www.linkedin.com/in/tarekchelaifa/",
       },
     ],
   },
