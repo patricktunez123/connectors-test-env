@@ -4150,6 +4150,11 @@ Big Data Analytics Banner CSS
   background-repeat: no-repeat;
   position: relative;
 }
+@media only screen and (max-width: 767px) {
+  .bigdata-analytics-banner.bg-image {
+    background: inherit !important;
+  }
+}
 
 .bigdata-analytics-banner.bg-image::before {
   content: "";
