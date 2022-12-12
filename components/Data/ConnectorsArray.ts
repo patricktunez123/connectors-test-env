@@ -72,7 +72,7 @@ export const ConnectorsArray = [
   },
   {
     id: 3,
-    name: "Filip KABEYA MULOMBELA  ",
+    name: "Filip KABEYA ",
     country: "DRC",
     countryFlag: "cd",
     imageURL: "/images/team-image/Filip KABEYA MULOMBELA.jpeg",
@@ -175,7 +175,7 @@ export const ConnectorsArray = [
   },
   {
     id: 12,
-    name: "Nene Keita-DIALO",
+    name: "Nene Keita DIALLO",
     country: "Mali",
     countryFlag: "ml",
     imageURL: "/images/team-image/Nene Keita-DIALO.jpg",
