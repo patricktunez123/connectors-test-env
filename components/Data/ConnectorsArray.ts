@@ -1,47 +1,5 @@
 export const ConnectorsArray = [
   {
-    id: 1,
-    name: "Dr Lawrence NDERU, (PhD)",
-    country: "Kenya",
-    countryFlag: "ke",
-    imageURL: "/images/team-image/cloped.png",
-    company: "",
-    socialLinks: [
-      {
-        twitter: "https://twitter.com/@LawrenceNM",
-        linkdin: "https://www.linkedin.com/in/dr-lawrence-nderu/",
-      },
-    ],
-  },
-  {
-    id: 2,
-    name: "McKevin AYABA ",
-    country: "South Africa",
-    countryFlag: "za",
-    imageURL: "/images/team-image/Mckevin AYABA.jpg",
-    company: "",
-    socialLinks: [
-      {
-        twitter: "https://twitter.com/mckevinayaba",
-        linkdin: "https://www.linkedin.com/in/mckevin-ayaba-89853220/",
-      },
-    ],
-  },
-  {
-    id: 3,
-    name: "Filip KABEYA MULOMBELA  ",
-    country: "DRC",
-    countryFlag: "cd",
-    imageURL: "/images/team-image/Filip KABEYA MULOMBELA.jpeg",
-    company: "",
-    socialLinks: [
-      {
-        twitter: "https://twitter.com/FilipKabeya ",
-        linkdin: "https://www.linkedin.com/in/filipkabeya/",
-      },
-    ],
-  },
-  {
     id: 4,
     name: "Dr. Itoro Charles EMEMBOLU",
     country: "Nigeria",
@@ -57,16 +15,16 @@ export const ConnectorsArray = [
     ],
   },
   {
-    id: 5,
-    name: "Belgacem OUAFA",
-    country: "Tunisia",
-    countryFlag: "tn",
-    imageURL: "/images/team-image/Belgacem OUAFA.jpg",
+    id: 1,
+    name: "Dr Lawrence NDERU, (PhD)",
+    country: "Kenya",
+    countryFlag: "ke",
+    imageURL: "/images/team-image/cloped.png",
     company: "",
     socialLinks: [
       {
-        twitter: "",
-        linkdin: "https://tn.linkedin.com/in/ouafa-belgacem-1252aa29",
+        twitter: "https://twitter.com/@LawrenceNM",
+        linkdin: "https://www.linkedin.com/in/dr-lawrence-nderu/",
       },
     ],
   },
@@ -85,16 +43,16 @@ export const ConnectorsArray = [
     ],
   },
   {
-    id: 7,
-    name: "Rodrigue FOUAFOU",
-    country: "Rwanda",
-    countryFlag: "rw",
-    imageURL: "/images/team-image/Rodrigue FOUAFOU.jpeg",
+    id: 2,
+    name: "McKevin AYABA ",
+    country: "South Africa",
+    countryFlag: "za",
+    imageURL: "/images/team-image/Mckevin AYABA.jpg",
     company: "",
     socialLinks: [
       {
-        twitter: "https://twitter.com/RodrigueFouafou",
-        linkdin: "https://www.linkedin.com/in/rodriguefouafou/",
+        twitter: "https://twitter.com/mckevinayaba",
+        linkdin: "https://www.linkedin.com/in/mckevin-ayaba-89853220/",
       },
     ],
   },
@@ -113,17 +71,46 @@ export const ConnectorsArray = [
     ],
   },
   {
-    id: 9,
-    name: "Gilbert Junior BUREGYEYA",
-    country: "Uganda",
-    countryFlag: "ug",
-    imageURL: "/images/team-image/Gilbert Junior BUREGYEYA.jpg",
+    id: 3,
+    name: "Filip KABEYA MULOMBELA  ",
+    country: "DRC",
+    countryFlag: "cd",
+    imageURL: "/images/team-image/Filip KABEYA MULOMBELA.jpeg",
     company: "",
     socialLinks: [
       {
-        twitter: "https://twitter.com/BJnrGilbert",
-        linkdin:
-          "https://www.linkedin.com/in/gilbert-junior-buregyeya-294a31113/",
+        twitter: "https://twitter.com/FilipKabeya ",
+        linkdin: "https://www.linkedin.com/in/filipkabeya/",
+      },
+    ],
+  },
+
+  {
+    id: 5,
+    name: "Belgacem OUAFA",
+    country: "Tunisia",
+    countryFlag: "tn",
+    imageURL: "/images/team-image/Belgacem OUAFA.jpg",
+    company: "",
+    socialLinks: [
+      {
+        twitter: "",
+        linkdin: "https://tn.linkedin.com/in/ouafa-belgacem-1252aa29",
+      },
+    ],
+  },
+
+  {
+    id: 7,
+    name: "Rodrigue FOUAFOU",
+    country: "Rwanda",
+    countryFlag: "rw",
+    imageURL: "/images/team-image/Rodrigue FOUAFOU.jpeg",
+    company: "",
+    socialLinks: [
+      {
+        twitter: "https://twitter.com/RodrigueFouafou",
+        linkdin: "https://www.linkedin.com/in/rodriguefouafou/",
       },
     ],
   },
@@ -142,6 +129,22 @@ export const ConnectorsArray = [
     ],
   },
   {
+    id: 9,
+    name: "Gilbert Junior BUREGYEYA",
+    country: "Uganda",
+    countryFlag: "ug",
+    imageURL: "/images/team-image/Gilbert Junior BUREGYEYA.jpg",
+    company: "",
+    socialLinks: [
+      {
+        twitter: "https://twitter.com/BJnrGilbert",
+        linkdin:
+          "https://www.linkedin.com/in/gilbert-junior-buregyeya-294a31113/",
+      },
+    ],
+  },
+
+  {
     id: 11,
     name: "Christelle ASSIROU",
     country: "Côte d’Ivoire",
@@ -153,20 +156,6 @@ export const ConnectorsArray = [
         twitter: "https://twitter.com/ChristelAssirou",
         linkdin:
           "https://www.linkedin.com/in/christelle-n-cho-assirou-8204ab37/",
-      },
-    ],
-  },
-  {
-    id: 12,
-    name: "Nene Keita-DIALO",
-    country: "Mali",
-    countryFlag: "ml",
-    imageURL: "/images/team-image/Nene Keita-DIALO.jpg",
-    company: "",
-    socialLinks: [
-      {
-        twitter: "",
-        linkdin: "https://www.linkedin.com/in/nenekeita/",
       },
     ],
   },
@@ -184,6 +173,21 @@ export const ConnectorsArray = [
       },
     ],
   },
+  {
+    id: 12,
+    name: "Nene Keita-DIALO",
+    country: "Mali",
+    countryFlag: "ml",
+    imageURL: "/images/team-image/Nene Keita-DIALO.jpg",
+    company: "",
+    socialLinks: [
+      {
+        twitter: "",
+        linkdin: "https://www.linkedin.com/in/nenekeita/",
+      },
+    ],
+  },
+
   {
     id: 14,
     name: "Bastawy AHMED",
