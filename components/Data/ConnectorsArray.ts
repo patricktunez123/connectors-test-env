@@ -175,7 +175,7 @@ export const ConnectorsArray = [
   },
   {
     id: 12,
-    name: "Nene Keita DIALLO",
+    name: "Nene KEITA-DIALLO",
     country: "Mali",
     countryFlag: "ml",
     imageURL: "/images/team-image/Nene Keita-DIALO.jpg",
